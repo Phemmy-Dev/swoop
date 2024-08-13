@@ -1,0 +1,38 @@
+nav {
+    background-color: var(--accent-color);
+    height: 15vh;
+    border-bottom: 1px solid white;
+}
+
+.product_hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/product_bg.jpg') no-repeat center center/cover;
+    height: 85vh;
+}
+
+.product_hero h1 {
+    font-size: 4rem;
+}
+
+.product_hero p {
+    font-size: 1rem;
+    width: 50%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .product_hero h1 {
+        font-size: 3rem;
+    }
+
+    .product_hero p {
+        width: 85%;
+    }
+}
+
+
+

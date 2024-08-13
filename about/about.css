@@ -1,0 +1,130 @@
+.about_hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/about_bg.jpg') no-repeat center center/cover;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.about_hero_content {
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.about_hero_content h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: calc(2.375rem + 1.5vw);
+}
+
+.about_content {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.fd_about_content {
+    margin-bottom: 40px;
+}
+
+.about_content h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: var(--accent-color);
+}
+
+.about_content p {
+    text-align: center;
+}
+
+.offers h2{
+    text-align: center;
+}
+
+.offers_cont {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.offer_box {
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid red; */
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content:last baseline;
+    flex-direction: column;
+    text-align: center;
+    /* color: white; */
+}
+
+
+.offer_box h4 {
+    border: 2px solid var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.offer_box p {
+    text-align: justify;
+}
+
+.choose {
+    background-color: var(--accent-color);
+    padding: 60px 20px;
+    color: white;
+}
+
+.choose h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.choose_cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.choose_box {
+    height: 250px;
+    width: 350px;
+    /* border: 2px solid red; */
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.choose_box i {
+    color: var(--primary-color);
+    font-size: 4rem;
+}
+
+.choose_box h4 {
+    color: black;
+    /* margin-bottom: 15px; */
+}
+
+.choose_box p {
+    color: black;
+    font-size: 0.9rem;
+}
