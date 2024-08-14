@@ -1,5 +1,5 @@
 .about_hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/about_bg.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/about_bg_min.jpg') no-repeat center center/cover;
     height: 70vh;
     background-position: center;
     background-size: cover;
@@ -127,4 +127,11 @@
 .choose_box p {
     color: black;
     font-size: 0.9rem;
+}
+
+
+@media(max-width:767px) {
+    .about_content h2 {
+        font-size: 2rem;
+    }
 }
